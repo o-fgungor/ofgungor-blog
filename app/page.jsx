@@ -3,7 +3,7 @@ import React from "react";
 const HomePage = () => {
   return (
     <div>
-      <h1>Welcome to the Home Page</h1>
+      <h1 className="bg-red-500 text-white">Welcome to the Home Page</h1>
       <p>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia sit quos
         illum quaerat quas, veritatis sequi eaque recusandae inventore nisi,

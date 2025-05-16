@@ -1,19 +1,10 @@
-import React from "react";
-
-const HomePage = () => {
+export default function HomePage() {
   return (
-    <div>
-      <h1>Welcome to the Home Page</h1>
-      <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia sit quos
-        illum quaerat quas, veritatis sequi eaque recusandae inventore nisi,
-        vitae deleniti nihil nesciunt quis corporis. Ea nostrum soluta cum
-        sapiente, libero debitis accusantium porro eligendi. Explicabo
-        distinctio deleniti earum asperiores ut? Labore exercitationem deserunt
-        aliquid natus ut quaerat commodi!
+    <section>
+      <h2 className="text-2xl font-semibold mb-4">Welcome to my blog!</h2>
+      <p className="text-gray-700">
+        This is the homepage content. You can feature your latest blog posts, introduce yourself, or share announcements here.
       </p>
-    </div>
+    </section>
   );
-};
-
-export default HomePage;
+}

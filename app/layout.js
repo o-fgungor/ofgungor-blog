@@ -24,6 +24,10 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} bg-[#e5e7eb] dark:bg-gray-900`}>
         <ThemeProvider>
+          {/* Fixed Theme Toggle Button - visible and not clipped */}
+          <div className="fixed top-6 right-6 z-50 scale-75">
+            <ThemeToggle />
+          </div>
           <div className="relative min-h-screen">
             {/* Header */}
             <div className="w-full text-center py-10">
@@ -69,9 +73,6 @@ export default function RootLayout({ children }) {
                 <main>{children}</main>
               </div>
             </div>
-
-            {/* Theme Toggle Button */}
-            <ThemeToggle />
           </div>
         </ThemeProvider>
       </body>

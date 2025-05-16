@@ -3,3 +3,9 @@
 @custom-variant dark (&:where(.dark, .dark *)) {
   /* This enables dark mode styles */
 }
+body {
+    transition: background-color 1.0s cubic-bezier(0.4, 0, 0.2, 1), color 1.0s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+.transition-bgcolor {
+transition: background-color 1.0s cubic-bezier(0.4, 0, 0.2, 1);
+}

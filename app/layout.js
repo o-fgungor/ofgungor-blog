@@ -69,7 +69,7 @@ export default function RootLayout({ children }) {
 
             {/* Content Card */}
             <div className="flex justify-center px-4 mt-12 pb-16">
-              <div className="w-full max-w-3xl bg-white dark:bg-gray-800 shadow-2xl rounded-2xl p-8">
+              <div className="w-full max-w-3xl bg-white dark:bg-gray-800 shadow-2xl rounded-2xl p-8 transition-bgcolor">
                 <main>{children}</main>
               </div>
             </div>
